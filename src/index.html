@@ -3,10 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Land Page of Agenor Junior</title>
+    <title>Resume - Agenor Dionizio da Silva Junior</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #f5f5f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            margin: 0;
+            padding: 0;
+            font-weight: 600;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #1d1d1f;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #1d1d1f;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 1.2em;
+            color: #6e6e73;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin: 5px 0;
+            line-height: 1.6;
+            color: #515154;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #007aff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .contact-info a:hover {
+            color: #0056b3;
+        }
+
+        .skills-list, .project-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .skills-list li, .project-list li {
+            margin-bottom: 10px;
+        }
+
+        .skills-list li::before {
+            content: "•";
+            color: #007aff;
+            margin-right: 8px;
+        }
+
+        .project {
+            border-left: 3px solid #007aff;
+            padding-left: 10px;
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
 </head>
 <body>
-    <h1>Agenor Dionizio da Silva Junior</h1>
-    
+    <div class="container">
+        <h1>Agenor Dionizio da Silva Junior</h1>
+        <div class="section contact-info">
+            <p>Phone: <a href="tel:+14379993816">+1 437 999 3816</a></p>
+            <p>Email: <a href="mailto:agenor.dsjunior@gmail.com">agenor.dsjunior@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/agenor-junior-9049b8298/" target="_blank">linkedin.com/in/agenor-junior</a></p>
+            <p>GitHub: <a href="https://github.com/Agenor-Junior" target="_blank">github.com/Agenor-Junior</a></p>
+        </div>
+
+        <div class="section">
+            <h2>Objective</h2>
+            <p>Developer in training with a focus on C++ and object-oriented programming, currently studying at Seneca College. Seeking opportunities to apply technical skills in software development and contribute to challenging projects in technology-driven environments.</p>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <h3>Seneca College, Toronto, ON</h3>
+            <p>Certificate in C++ Programming (In Progress)</p>
+            <p>Key Subjects: OOP, inheritance, polymorphism, templates, file handling, data structures.</p>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <ul class="project-list">
+                <li class="project">
+                    <h3>Grocery Store App</h3>
+                    <p>Developed an application to streamline order processing and inventory management for a grocery store, utilizing C++ for data manipulation and API integration.</p>
+                </li>
+                <li class="project">
+                    <h3>Arduino Projects</h3>
+                    <p>Built automated systems using Arduino for controlling motors and sensors, including embedded programming for real-time monitoring and automation.</p>
+                </li>
+                <li class="project">
+                    <h3>Dictionary with Optimized Search</h3>
+                    <p>Created a C++ application for efficient word searches using binary search trees, focusing on algorithm optimization and execution time improvements.</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>C++, JavaScript, HTML, CSS</li>
+                <li>Git, GitHub, VSCode, GDB</li>
+                <li>Object-Oriented Programming, Unit Testing</li>
+                <li>Advanced C++ Concepts: Operator Overloading, Inheritance, Polymorphism, Templates</li>
+                <li>Arduino Microcontrollers</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Languages</h2>
+            <p>Portuguese: Native</p>
+            <p>English: Intermediate (studying to advance)</p>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2024 Agenor Dionizio da Silva Junior</p>
+        </div>
+    </div>
 </body>
 </html>
